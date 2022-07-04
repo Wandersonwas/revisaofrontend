@@ -1,15 +1,52 @@
 
-div.centro {
-    text-align: center
-    
 
-}
 #demotext {
-    color: #e0eff2;
+    margin-top: 0%;
     background: #e0e3f1;
     font: italic bold Georgia, Serif;
-    text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
+    text-shadow: -4px 3px 0 #020625, -14px 7px 0 #010316;
     color: #e0eff2;
-    background: #03060e;
+    background: #142e77;
     font-size: 60px;
+    }
+
+    body {
+        margin: 0;
+        font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    }
+    #container {
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+        background: url('../background/fundo.png');
+        background-size: cover;
+    }
+
+    button {
+        text-transform: uppercase;
+        transition: background .3;
+        border-radius: 10px;
+        font-size: larger;
+        font-style: normal;
+        margin-top: 50px;
+        border-color: #e0e3f1;
+    }   
+
+   
+    button:hover {
+        background-color: #e08c1e;
+    }
+
+    button:active {
+        transition: background .1;
+        background-color: #8b4f00;
+        color: azure;
+        border-color: #e0e3f1;
+
+    }
+
+    p{
+        margin-top: 200px;
+        font-size: 30px;
+        color: aliceblue;
     }
